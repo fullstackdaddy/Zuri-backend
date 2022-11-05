@@ -4,6 +4,6 @@ const router = Router();
 
 // router.use("/user", userRouter);
 // router.use("/expense", expenseRouter);
-router.use("/api/v1/calculate", trackTwoRoutes);
+router.use("/stage2", trackTwoRoutes);
 
 module.exports = router;
